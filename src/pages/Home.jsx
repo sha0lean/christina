@@ -9,7 +9,7 @@ import Breakpoints from "../components/utils/Breakpoints"
 
 const Home = () => {
   return (
-    <div>
+    <div id="elephant">
       <Hero />
       <div
         id="Cards"
