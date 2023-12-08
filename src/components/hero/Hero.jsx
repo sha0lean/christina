@@ -3,15 +3,15 @@
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
 
-import logoAnimal from "../../assets/logo/logo_ANIMAL_black.webp"
+import logoChristina from "../../assets/logo/logo_lechristina_dark.webp"
 import CallToAction from "../ui/CallToAction.jsx"
 
 const Hero = () => {
   return (
     <div className="">
       <img
-        src={logoAnimal}
-        alt="Logo du Bar"
+        src={logoChristina}
+        alt="Logo Restaurant 'Le Christina'"
         className="sm:pr-10sm:w-3/5 md:pb- w-5/6 px-10 py-0 pr-32 sm:py-10 md:w-1/2 md:pl-16 md:pt-20 lg:w-5/12 lg:pl-32"
       />
       <div className="mb-8 mt-10 flex  flex-row border-cyan-400">
@@ -20,9 +20,11 @@ const Hero = () => {
           className="flex h-full w-5/6 flex-col justify-center space-y-4 border-purple-400 pl-4 sm:pl-16"
         >
           <h1 className="font-heading text-2xl font-bold sm:text-3xl md:text-5xl">
-            Bar à<br />
-            Cocktails
-            <br />& Tapas
+            Restaurant
+            <br />
+            Traditionnel
+            <br />
+            Français
           </h1>
 
           <p className="max-w-md pr-10 font-heading text-sm text-gray-300 sm:text-lg">

@@ -7,6 +7,7 @@ import Breakpoints from "./components/utils/Breakpoints"
 function Layout({ children }) {
   return (
     <div className="max-w-full overflow-hidden border border-indigo-500">
+      <Breakpoints />
       <Header />
       {children}
       <Footer />

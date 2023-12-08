@@ -4,8 +4,8 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
 import Card from "../components/card/Card"
 import Hero from "../components/hero/Hero"
-import Hippo from "../components/hippo/Hippo"
 import CallToAction from "../components/ui/CallToAction"
+import Breakpoints from "../components/utils/Breakpoints"
 
 const Home = () => {
   return (
@@ -13,17 +13,16 @@ const Home = () => {
       <Hero />
       <div
         id="Cards"
-        className="container mx-auto mb-14 grid grid-cols-1 gap-14 px-4 py-16 sm:px-6 md:grid-cols-2 md:gap-10 lg:max-w-6xl lg:grid-cols-4 lg:px-8"
+        className="container mx-auto mb-14 grid grid-cols-1 gap-14 px-4 py-16 sm:px-6 md:grid-cols-3 md:gap-10 lg:max-w-6xl lg:grid-cols-3 lg:px-8"
       >
-        <Card imageUrl="./src/assets/cards/card_lieu.webp" title="lieu" />
-        <Card imageUrl="./src/assets/cards/card_cocktail.webp" title="cocktails" />
-        <Card imageUrl="./src/assets/cards/card_vins.webp" title="vins & bières" />
-        <Card imageUrl="./src/assets/cards/card_tapas.webp" title="tapas" />
+        <Card imageUrl="./src/assets/cards/card_interieur.webp" title="en hiver" />
+        <Card imageUrl="./src/assets/cards/card_cuisine.webp" title="en cuisine" />
+        <Card imageUrl="./src/assets/cards/card_exterieur.webp" title="en été" />
       </div>
-      <Hippo />
+      <Breakpoints />
       <div
         id="description"
-        className="flex flex-col gap-10 bg-secondary p-8 text-justify font-heading text-secondary sm:p-20 md:flex-row md:gap-20"
+        className="flex flex-col gap-10  p-8 text-justify font-heading text-primary sm:p-20 md:flex-row md:gap-20"
       >
         <div className="prose md:prose-xl text-bold md:w-1/2">
           <p id="text1">
