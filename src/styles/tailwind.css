@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-primary text-primary;
+  }
+}
+
+#root {
+  background-image: url("src/assets/artwork/lion_banner.webp");
+  position: relative;
+  z-index: 1;
+  background-size: auto 150%;
+  background-position: top right;
+  @apply bg-contain bg-no-repeat;
+  height: 100vh;
+}
+
+/* #mobileNav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+} */

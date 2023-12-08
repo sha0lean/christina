@@ -1,0 +1,59 @@
+{
+  "name": "christina",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lintvite": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "optimg": "bash src/assets/webp_optimizer.sh",
+    "build-css": "postcss src/styles.css -o dist/styles.css"
+  },
+  "scriptComments": {
+    "dev": "        Lance le serveur de développement avec Vite",
+    "build": "      Effectue la construction du projet avec Vite",
+    "lintvite": "   Lance ESLint selon les recommandations de Vite",
+    "lint": "       Lance ESLint pour vérifier tout le code",
+    "lint:fix": "   Lance ESLint pour corriger les erreurs",
+    "optimg": "     Script qui execute les photos dans le dossier src/assets",
+    "build-css": "  Applique les plugins postcss.config.js pour créer dist/styles.css"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@tailwindcss/typography": "^0.5.10",
+    "geist": "^1.1.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.1.0",
+    "postcss": "^8.4.31",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.4.5"
+  }
+}
