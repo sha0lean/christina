@@ -1,5 +1,8 @@
 //=components/pages/Home.jsx
 
+import cuisineImage from "@assets/cards/card_cuisine.webp"
+import exterieurImage from "@assets/cards/card_exterieur.webp"
+import interieurImage from "@assets/cards/card_interieur.webp"
 import Card from "@components/card/Card"
 import Hero from "@components/hero/Hero"
 import HomeParallax from "@components/parallax/HomeParallax.jsx"
@@ -15,9 +18,9 @@ const Home = () => {
         id="Cards"
         className="container mx-auto mb-14 grid grid-cols-1 gap-14 px-4 py-16 sm:px-6 md:grid-cols-3 md:gap-10 lg:max-w-6xl lg:grid-cols-3 lg:px-8"
       >
-        <Card imageUrl="./src/assets/cards/card_interieur.webp" title="en hiver" />
-        <Card imageUrl="./src/assets/cards/card_cuisine.webp" title="en cuisine" />
-        <Card imageUrl="./src/assets/cards/card_exterieur.webp" title="en été" />
+        <Card imageUrl={interieurImage} title="en hiver" />
+        <Card imageUrl={cuisineImage} title="en cuisine" />
+        <Card imageUrl={exterieurImage} title="en été" />{" "}
       </div>
       <section className="p-8 font-heading text-primary sm:p-20">
         <div className="b2 grid grid-cols-1 lg:grid-cols-5 lg:gap-4">
