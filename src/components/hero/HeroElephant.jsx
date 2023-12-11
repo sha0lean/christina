@@ -3,8 +3,8 @@
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
 
-import logoAnimal from "../../assets/logo/logo_ANIMAL_black.webp"
-import CallToAction from "../ui/CallToAction.jsx"
+import logoAnimal from "/src/assets/logo/logo_ANIMAL_black.webp"
+import CallToAction from "/src/components/ui/CallToAction.jsx"
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
         alt="Logo du Bar"
         className="sm:pr-10sm:w-3/5 md:pb- w-5/6 px-10 py-0 pr-32 sm:py-10 md:w-1/2 md:pl-16 md:pt-20 lg:w-5/12 lg:pl-32"
       />
-      <div className="mb-8 mt-10 flex  flex-row border-cyan-400">
+      <div className="border-cyan-400 mb-8 mt-10  flex flex-row">
         <div
           id="headlines"
           className="flex h-full w-5/6 flex-col justify-center space-y-4 border-purple-400 pl-4 sm:pl-16"

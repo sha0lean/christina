@@ -2,11 +2,10 @@
 
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
-import Card from "../components/card/Card"
-import Hero from "../components/hero/Hero"
 import HomeParallax from "../components/parallax/HomeParallax.jsx"
 import CallToAction from "../components/ui/CallToAction"
-import Breakpoints from "../components/utils/Breakpoints"
+import Card from "/src/components/card/Card"
+import Hero from "/src/components/hero/Hero"
 
 const Home = () => {
   return (
@@ -20,8 +19,7 @@ const Home = () => {
         <Card imageUrl="./src/assets/cards/card_cuisine.webp" title="en cuisine" />
         <Card imageUrl="./src/assets/cards/card_exterieur.webp" title="en été" />
       </div>
-      <Breakpoints />
-      <section className="b1 p-8 font-heading text-primary sm:p-20">
+      <section className="p-8 font-heading text-primary sm:p-20">
         <div className="b2 grid grid-cols-1 lg:grid-cols-5 lg:gap-4">
           <div className="b3 grid gap-6 lg:col-span-4 lg:grid lg:grid-cols-2 lg:gap-10">
             <p id="text1" className="b4 order-1 lg:col-span-1">
