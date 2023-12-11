@@ -26,7 +26,7 @@ const Home = () => {
           <div className="b3 grid gap-6 lg:col-span-4 lg:grid lg:grid-cols-2 lg:gap-10">
             <p id="text1" className="b4 order-1 lg:col-span-1">
               Plongez dans l&apos;atmosphère vibrante de l&apos;Animal Lodge Bar, où notre
-              équipe dévouée et passionnée œuvre inlassablement pour créer une expérience
+              équipe dévouée et passionnée oeuvre inlassablement pour créer une expérience
               exceptionnelle pour nos clients. Guidée par une passion commune pour
               l&apos;hospitalité, chaque membre de notre équipe est déterminé à offrir un
               service attentionné, dans une ambiance chaleureuse et amicale qui fait de
@@ -39,7 +39,7 @@ const Home = () => {
             </p>
             <p id="text2" className="b4 order-3">
               Plongez dans l&apos;atmosphère vibrante de l&apos;Animal Lodge Bar, où notre
-              équipe dévouée et passionnée œuvre inlassablement pour créer une expérience
+              équipe dévouée et passionnée oeuvre inlassablement pour créer une expérience
               exceptionnelle pour nos clients.
             </p>
             <p id="text3" className="b4 order-4 lg:mt-20">
@@ -77,6 +77,46 @@ const Home = () => {
         </div>
       </section>
       <HomeParallax />
+      <section className="flex flex-col justify-between gap-10 bg-secondary p-20 lg:flex-row lg:gap-20">
+        <div
+          id="carte&menus"
+          className="flex w-full flex-col gap-6 text-center font-heading text-sm text-secondary md:text-lg lg:w-1/2"
+        >
+          <h2 className=" text-3xl">carte & menus</h2>
+          <p className="text-justify">
+            Plongez dans l&apos;atmosphère vibrante de l&apos;Animal Lodge Bar, où notre
+            équipe dévouée et passionnée oeuvre inlassablement pour créer une expérience
+            exceptionnelle pour nos clients. Guidée par une passion commune pour
+            l&apos;hospitalité, chaque membre de notre équipe est déterminé à offrir un
+            service attentionné, dans une ambiance chaleureuse et amicale qui fait de
+            notre établissement un véritable bar d&apos;ambiance.
+          </p>
+          <p className="text-justify">
+            Que ce soit pour une soirée décontractée entre amis ou une soirée en amoureux,
+            notre équipe est là pour vous accueillir avec un sourire et une énergie
+            contagieuse. Nous sommes fiers de créer un environnement convivial, où chaque
+            visite se transforme en une expérience mémorable, mettant en avant notre
+            engagement envers le confort et le plaisir de nos clients.
+          </p>
+          <h3 className="text-2xl">découvrir</h3>
+        </div>
+
+        <div id="batch_menus" className="my-auto w-full lg:w-1/2">
+          <img
+            className="h-full w-full object-cover object-center transition-all duration-500 ease-in-out hover:rotate-2 hover:scale-110"
+            src="/src/assets/artwork/menu_batch.webp"
+            alt="Image"
+          />
+        </div>
+      </section>
+      <section className="banner">
+        <div className="flex w-full">
+          <img className="w-1/4" src="src/assets/cooking/dessert_1.webp" alt="Image 1" />
+          <img className="w-1/4" src="src/assets/cooking/plat_2.webp" alt="Image 2" />
+          <img className="w-1/4" src="src/assets/cooking/dessert_2.webp" alt="Image 3" />
+          <img className="w-1/4" src="src/assets/cooking/plat_1.webp" alt="Image 2" />
+        </div>
+      </section>
     </div>
   )
 }
