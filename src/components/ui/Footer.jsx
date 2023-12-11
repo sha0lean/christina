@@ -1,5 +1,5 @@
 //=components/ui/Footer.jsx
-import zebraManeImg from "@assets/artwork/zebra_mane.webp"
+import zebraManeImg from "@assets/artwork/zebraMane.webp"
 import cocktailImg from "@assets/cocktails/cocktail1.webp"
 
 function Footer() {
