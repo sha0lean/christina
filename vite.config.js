@@ -13,6 +13,11 @@ const assetsAlias = fileURLToPath(new URL("./src/assets", import.meta.url))
 export default defineConfig({
   plugins: [react()],
 
+  build: {
+    minify: "esbuild", // https://v4.vitejs.dev/config/build-options.html#build-minify
+    sourcemap: false, // https://v4.vitejs.dev/config/build-options.html#build-sourcemap
+  },
+
   resolve: {
     alias: {
       "@": srcAlias,

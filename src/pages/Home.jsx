@@ -1,8 +1,15 @@
 //=components/pages/Home.jsx
 
+import menusImg from "@assets/artwork/menu_batch.webp"
 import cuisineImage from "@assets/cards/card_cuisine.webp"
 import exterieurImage from "@assets/cards/card_exterieur.webp"
 import interieurImage from "@assets/cards/card_interieur.webp"
+import cook3Img from "@assets/cooking/dessert_1.webp"
+import cook4Img from "@assets/cooking/dessert_2.webp"
+import cook1Img from "@assets/cooking/plat_1.webp"
+import cook2Img from "@assets/cooking/plat_2.webp"
+import equipeCuisineImg from "@assets/equipe/equipe_cuisine.webp"
+import equipeSalleImg from "@assets/equipe/equipe_salle.webp"
 import Card from "@components/card/Card"
 import Hero from "@components/hero/Hero"
 import HomeParallax from "@components/parallax/HomeParallax.jsx"
@@ -105,17 +112,17 @@ const Home = () => {
         <div id="batch_menus" className="my-auto w-full lg:w-1/2">
           <img
             className="h-full w-full object-cover object-center transition-all duration-500 ease-in-out hover:rotate-2 hover:scale-110"
-            src="/src/assets/artwork/menu_batch.webp"
+            src={menusImg}
             alt="Image"
           />
         </div>
       </section>
       <section className="banner">
         <div className="flex w-full">
-          <img className="w-1/4" src="src/assets/cooking/dessert_1.webp" alt="Image 1" />
-          <img className="w-1/4" src="src/assets/cooking/plat_2.webp" alt="Image 2" />
-          <img className="w-1/4" src="src/assets/cooking/dessert_2.webp" alt="Image 3" />
-          <img className="w-1/4" src="src/assets/cooking/plat_1.webp" alt="Image 2" />
+          <img className="w-1/4" src={cook1Img} alt="Image 1" />
+          <img className="w-1/4" src={cook2Img} alt="Image 2" />
+          <img className="w-1/4" src={cook3Img} alt="Image 3" />
+          <img className="w-1/4" src={cook4Img} alt="Image 2" />
         </div>
       </section>
       <section className="flex flex-col gap-20 bg-primary p-20 py-32 text-justify font-heading">
@@ -137,8 +144,8 @@ const Home = () => {
           id="Home_Teams"
           className="container mx-auto grid grid-cols-1 gap-14 md:grid-cols-2"
         >
-          <Card imageUrl="public/assets/equipe/equipe_salle.webp" title="en salle" />
-          <Card imageUrl="./src/assets/equipe/equipe_cuisine.webp" title="en cuisine" />
+          <Card imageUrl={equipeSalleImg} title="en salle" />
+          <Card imageUrl={equipeCuisineImg} title="en cuisine" />
         </div>
       </section>
     </div>
