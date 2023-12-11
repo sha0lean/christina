@@ -11,7 +11,7 @@
 }
 
 #elephant {
-  background-image: url("src/assets/artwork/elephant_banner.webp");
+  background-image: url("/src/assets/artwork/elephant_banner.webp");
   position: relative;
   z-index: 1;
   background-position: top right;
@@ -34,11 +34,11 @@
   @apply border-2 border-double border-pink;
 }
 .b2 {
-  @apply border-yellow border-2;
+  @apply border-2 border-yellow;
 }
 .b3 {
   @apply border-4 border-dotted border-blue;
 }
 .b4 {
-  @apply border-cyan border-4 border-double;
+  @apply border-4 border-double border-cyan;
 }
