@@ -1,7 +1,7 @@
-//= src/Layout.jsx
+//=src/Layout.jsx
 
-import Footer from "./components/ui/Footer"
-import Header from "./components/ui/Header"
+import Footer from "@components/ui/Footer"
+import Header from "@components/ui/Header"
 
 function Layout({ children }) {
   return (

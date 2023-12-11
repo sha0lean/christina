@@ -1,10 +1,9 @@
 //=components/hero/Hero.jsx
 
+import logoChristina from "@assets/logo/logo_lechristina_dark.webp"
+import CallToAction from "@components/ui/CallToAction.jsx"
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
-
-import logoChristina from "/src/assets/logo/logo_lechristina_dark.webp"
-import CallToAction from "/src/components/ui/CallToAction.jsx"
 
 const Hero = () => {
   return (

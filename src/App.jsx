@@ -1,7 +1,8 @@
-// src/App.jsx
+//=src/App.jsx
+
+import Layout from "@/Layout"
+import Home from "@/pages/Home"
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
-import Layout from "./Layout"
-import Home from "./pages/Home"
 
 function App() {
   return (

@@ -1,11 +1,11 @@
 //=components/pages/Home.jsx
 
+import Card from "@components/card/Card"
+import Hero from "@components/hero/Hero"
+import HomeParallax from "@components/parallax/HomeParallax.jsx"
+import CallToAction from "@components/ui/CallToAction"
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
-import HomeParallax from "../components/parallax/HomeParallax.jsx"
-import CallToAction from "../components/ui/CallToAction"
-import Card from "/src/components/card/Card"
-import Hero from "/src/components/hero/Hero"
 
 const Home = () => {
   return (
