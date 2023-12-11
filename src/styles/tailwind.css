@@ -11,7 +11,7 @@
 }
 
 #elephant {
-  background-image: url("/src/assets/artwork/elephant_banner.webp");
+  background-image: url("@assets/artwork/elephant_banner.webp");
   position: relative;
   z-index: 1;
   background-position: top right;
