@@ -134,10 +134,10 @@ const Home = () => {
         </p>
         <h2 className="text-center text-4xl">l&apos;équipe du Christina</h2>
         <div
-          id="Cards"
+          id="Home_Teams"
           className="container mx-auto grid grid-cols-1 gap-14 md:grid-cols-2"
         >
-          <Card imageUrl="./src/assets/equipe/equipe_salle.webp" title="en salle" />
+          <Card imageUrl="public/assets/equipe/equipe_salle.webp" title="en salle" />
           <Card imageUrl="./src/assets/equipe/equipe_cuisine.webp" title="en cuisine" />
         </div>
       </section>
