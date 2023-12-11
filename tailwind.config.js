@@ -24,6 +24,9 @@ export default {
         yellow: "#738700",
         cyan: "#003e32",
       },
+      backgroundImage: {
+        'parallax': 'url("/src/assets/artwork/terrace_fixed.webp")',
+      },
       backgroundColor: {
         // bg-"alias"
         primary: "#1E1E1E",

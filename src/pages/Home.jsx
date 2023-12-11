@@ -4,12 +4,13 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
 import Card from "../components/card/Card"
 import Hero from "../components/hero/Hero"
+import HomeParallax from "../components/parallax/HomeParallax.jsx"
 import CallToAction from "../components/ui/CallToAction"
 import Breakpoints from "../components/utils/Breakpoints"
 
 const Home = () => {
   return (
-    <div id="elephant">
+    <div id="eleph">
       <Hero />
       <div
         id="Cards"
@@ -75,7 +76,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <div className="flex flex-row items-center justify-center bg-secondary"></div>
+      <HomeParallax />
     </div>
   )
 }
