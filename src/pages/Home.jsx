@@ -117,6 +117,29 @@ const Home = () => {
           <img className="w-1/4" src="src/assets/cooking/plat_1.webp" alt="Image 2" />
         </div>
       </section>
+      <section className="flex flex-col gap-20 bg-primary p-20 py-32 text-justify font-heading">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id
+          aliquam tincidunt, nisl turpis aliquet nunc, nec tincidunt nunc nunc at dolor.
+          Sed id nunc auctor, aliquet nunc id, aliquam nunc. Sed id nunc auctor, aliquet
+          nunc id, aliquam nunc.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Nullam auctor, nunc id aliquam tincidunt, nisl turpis aliquet nunc, nec
+          tincidunt nunc nunc at dolor. Sed id nunc auctor, aliquet nunc id, aliquam nunc.
+          Sed id nunc auctor, aliquet nunc id, aliquam nunc.Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl
+          turpis aliquet nunc, nec tincidunt nunc nunc at dolor. Sed id nunc auctor,
+          aliquet nunc id, aliquam nunc. Sed id nunc auctor, aliquet nunc id, aliquam
+          nunc.
+        </p>
+        <h2 className="text-center text-4xl">l&apos;équipe du Christina</h2>
+        <div
+          id="Cards"
+          className="container mx-auto grid grid-cols-1 gap-14 md:grid-cols-2"
+        >
+          <Card imageUrl="./src/assets/equipe/equipe_salle.webp" title="en salle" />
+          <Card imageUrl="./src/assets/equipe/equipe_cuisine.webp" title="en cuisine" />
+        </div>
+      </section>
     </div>
   )
 }
