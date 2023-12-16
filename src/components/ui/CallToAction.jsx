@@ -10,7 +10,7 @@ const CallToAction = ({ icon, altText, link, iconSize }) => {
     <div id="CalltoAction">
       <a
         href={link}
-        className="flex h-12 w-12 items-center justify-center rounded-full bg-black text-white "
+        className="flex h-24 w-24 items-center justify-center rounded-full bg-black text-white "
       >
         <FontAwesomeIcon icon={icon} className={`animate-pulse ${iconSizeClass}`} />
         {altText && <span className="sr-only">{altText}</span>}

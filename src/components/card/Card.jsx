@@ -2,7 +2,7 @@
 
 function Card({ imageUrl, title }) {
   return (
-    <div className="relative flex h-auto max-w-md flex-col items-center justify-center overflow-visible bg-primary shadow-md md:max-w-md">
+    <div className="relative flex h-auto flex-col items-center justify-center overflow-visible bg-primary shadow-md md:max-w-md">
       <div className="h-[26em] w-full overflow-hidden md:h-[20em] lg:h-[40em]">
         <img
           src={imageUrl}
