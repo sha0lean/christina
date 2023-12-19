@@ -1,6 +1,6 @@
 //=components/hero/Hero.jsx
 
-import logoChristina from "@assets/logo/logo_lechristina_dark.webp"
+import logoChristina from "@assets/logo/logo_lechristina_white.webp"
 import CallToAction from "@components/ui/CallToAction.jsx"
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
@@ -11,7 +11,7 @@ const Hero = () => {
       <img
         src={logoChristina}
         alt="Logo Restaurant 'Le Christina'"
-        className="sm:pr-10sm:w-3/5 md:pb- w-5/6 px-10 py-0 pr-32 sm:py-10 md:w-1/2 md:pl-16 md:pt-20 lg:w-5/12 lg:pl-32"
+        className="md:pb- w-5/6 px-10 py-0 pr-32 sm:w-3/5 sm:py-10 sm:pr-10 md:w-1/2 md:pl-16 md:pt-20 lg:w-5/12 lg:pl-32"
       />
       <div className="border-cyan-400 mb-8 mt-10 flex flex-row px-20">
         <div
@@ -26,7 +26,7 @@ const Hero = () => {
             Français
           </h1>
 
-          <p className="max-w-md pr-10 font-heading text-sm text-gray-300 sm:text-lg">
+          <p className="max-w-md pr-10 font-body text-sm text-gray-300 sm:text-lg">
             À l&apos;origine du Restaurant Le Christina, Nelly et Bruno,
             <br /> véritable globe-trotters passionnés du voyage <br /> et fervents
             défenseurs des animaux, <br /> ont créé un havre qui évoque un univers

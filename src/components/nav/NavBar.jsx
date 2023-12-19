@@ -52,7 +52,7 @@ const Navbar = () => {
           <NavItem name="nos menus" link="/menus" />
           <NavItem name="événements" link="/events" />
           <NavItem name="l'équipe" link="/team" />
-          <NavItem name="contact" link="/contact" />
+          <NavItem name="à propos" link="/about" />
         </ul>
         <ul
           id="mobileNav"
@@ -70,7 +70,7 @@ const Navbar = () => {
           <NavItem name="nos menus" link="/menus" />
           <NavItem name="événements" link="/events" />
           <NavItem name="l'équipe" link="/team" />
-          <NavItem name="contact" link="/contact" />
+          <NavItem name="à propos" link="/about" />
         </ul>
       </container>
     </nav>

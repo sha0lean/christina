@@ -6,7 +6,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons"
 
 const DescrCTA = () => {
   return (
-    <section className="p-8 font-heading text-primary sm:p-20">
+    <section className="p-8 font-body text-primary sm:p-20">
       <div className="b2 grid grid-cols-1 lg:grid-cols-5 lg:gap-4">
         <div className="b3 grid gap-6 lg:col-span-4 lg:grid lg:grid-cols-2 lg:gap-10">
           <p id="text1" className="b4 order-1 lg:col-span-1">
@@ -36,7 +36,7 @@ const DescrCTA = () => {
           </p>
           <h3
             id="heading_bookup"
-            className="b4 order-last mt-10 text-5xl lg:order-2 lg:mt-20 lg:text-6xl"
+            className="b4 order-last mt-10 font-heading text-5xl font-bold lg:order-2 lg:mt-20 lg:text-6xl"
           >
             Réservation <br />
             par téléphone uniquement.

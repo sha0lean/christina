@@ -39,8 +39,8 @@ const Home = () => {
           id="carte&menus"
           className="flex w-full flex-col gap-6 text-center font-heading text-sm text-secondary md:text-lg lg:w-1/2"
         >
-          <h2 className=" text-3xl">carte & menus</h2>
-          <p className="text-justify">
+          <h2 className="text-3xl">carte & menus</h2>
+          <p className="text-justify font-body">
             Plongez dans l&apos;atmosphère vibrante de l&apos;Animal Lodge Bar, où notre
             équipe dévouée et passionnée oeuvre inlassablement pour créer une expérience
             exceptionnelle pour nos clients. Guidée par une passion commune pour
@@ -48,7 +48,7 @@ const Home = () => {
             service attentionné, dans une ambiance chaleureuse et amicale qui fait de
             notre établissement un véritable bar d&apos;ambiance.
           </p>
-          <p className="text-justify">
+          <p className="text-justify font-body">
             Que ce soit pour une soirée décontractée entre amis ou une soirée en amoureux,
             notre équipe est là pour vous accueillir avec un sourire et une énergie
             contagieuse. Nous sommes fiers de créer un environnement convivial, où chaque
@@ -74,7 +74,7 @@ const Home = () => {
           <img className="w-1/4" src={cook4Img} alt="Image 2" />
         </div>
       </section>
-      <section className="flex flex-col gap-20 bg-primary p-20 py-32 text-justify font-heading">
+      <section className="flex flex-col gap-20 bg-primary p-20 py-32 text-justify font-body font-heading">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id
           aliquam tincidunt, nisl turpis aliquet nunc, nec tincidunt nunc nunc at dolor.
@@ -88,7 +88,7 @@ const Home = () => {
           aliquet nunc id, aliquam nunc. Sed id nunc auctor, aliquet nunc id, aliquam
           nunc.
         </p>
-        <h2 className="text-center text-4xl">l&apos;équipe du Christina</h2>
+        <h2 className="text-center font-heading text-4xl">l&apos;équipe du Christina</h2>
         <div
           id="Home_Teams"
           className="container mx-auto grid grid-cols-1 gap-14 md:grid-cols-2"
