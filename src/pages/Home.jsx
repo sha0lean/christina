@@ -27,7 +27,7 @@ const Home = () => {
       >
         <Card imageUrl={interieurImage} title="en hiver" />
         <Card imageUrl={cuisineImage} title="en cuisine" />
-        <Card imageUrl={exterieurImage} title="en été" />{" "}
+        <Card imageUrl={exterieurImage} title="en été" />
       </div>
       <Breakpoints />
       <DescrCTA />
@@ -74,7 +74,7 @@ const Home = () => {
           <img className="w-1/4" src={cook4Img} alt="Image 2" />
         </div>
       </section>
-      <section className="flex flex-col gap-20 bg-primary p-20 py-32 text-justify font-body font-heading">
+      <section className="flex flex-col gap-20 bg-primary p-20 py-32 text-justify font-body">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id
           aliquam tincidunt, nisl turpis aliquet nunc, nec tincidunt nunc nunc at dolor.

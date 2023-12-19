@@ -6,6 +6,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    node: true,
   },
 
   // Ajoute les règles recommandées pour ESLint, React, React Hooks, et Prettier.
